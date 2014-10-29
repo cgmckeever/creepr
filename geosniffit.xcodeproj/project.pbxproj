@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4A2546A1A007F3300A0B33A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A254691A007F3300A0B33A /* AppDelegate.swift */; };
+		D4A2546C1A007F3300A0B33A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2546B1A007F3300A0B33A /* ViewController.swift */; };
+		D4A2546F1A007F3300A0B33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A2546D1A007F3300A0B33A /* Main.storyboard */; };
+		D4A254711A007F3300A0B33A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A254701A007F3300A0B33A /* Images.xcassets */; };
+		D4A254741A007F3300A0B33A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4A254721A007F3300A0B33A /* LaunchScreen.xib */; };
+		D4A254801A007F3300A0B33A /* geosniffitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2547F1A007F3300A0B33A /* geosniffitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4A2547A1A007F3300A0B33A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4A2545C1A007F3300A0B33A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4A254631A007F3300A0B33A;
+			remoteInfo = geosniffit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4A254641A007F3300A0B33A /* geosniffit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geosniffit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A254681A007F3300A0B33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A254691A007F3300A0B33A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4A2546B1A007F3300A0B33A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4A2546E1A007F3300A0B33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4A254701A007F3300A0B33A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4A254731A007F3300A0B33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D4A254791A007F3300A0B33A /* geosniffitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geosniffitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A2547E1A007F3300A0B33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A2547F1A007F3300A0B33A /* geosniffitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geosniffitTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A254611A007F3300A0B33A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A254761A007F3300A0B33A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4A2545B1A007F3300A0B33A = {
+			isa = PBXGroup;
+			children = (
+				D4A254661A007F3300A0B33A /* geosniffit */,
+				D4A2547C1A007F3300A0B33A /* geosniffitTests */,
+				D4A254651A007F3300A0B33A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A254651A007F3300A0B33A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A254641A007F3300A0B33A /* geosniffit.app */,
+				D4A254791A007F3300A0B33A /* geosniffitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A254661A007F3300A0B33A /* geosniffit */ = {
+			isa = PBXGroup;
+			children = (
+				D4A254691A007F3300A0B33A /* AppDelegate.swift */,
+				D4A2546B1A007F3300A0B33A /* ViewController.swift */,
+				D4A2546D1A007F3300A0B33A /* Main.storyboard */,
+				D4A254701A007F3300A0B33A /* Images.xcassets */,
+				D4A254721A007F3300A0B33A /* LaunchScreen.xib */,
+				D4A254671A007F3300A0B33A /* Supporting Files */,
+			);
+			path = geosniffit;
+			sourceTree = "<group>";
+		};
+		D4A254671A007F3300A0B33A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4A254681A007F3300A0B33A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4A2547C1A007F3300A0B33A /* geosniffitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4A2547F1A007F3300A0B33A /* geosniffitTests.swift */,
+				D4A2547D1A007F3300A0B33A /* Supporting Files */,
+			);
+			path = geosniffitTests;
+			sourceTree = "<group>";
+		};
+		D4A2547D1A007F3300A0B33A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4A2547E1A007F3300A0B33A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A254631A007F3300A0B33A /* geosniffit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A254831A007F3300A0B33A /* Build configuration list for PBXNativeTarget "geosniffit" */;
+			buildPhases = (
+				D4A254601A007F3300A0B33A /* Sources */,
+				D4A254611A007F3300A0B33A /* Frameworks */,
+				D4A254621A007F3300A0B33A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geosniffit;
+			productName = geosniffit;
+			productReference = D4A254641A007F3300A0B33A /* geosniffit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4A254781A007F3300A0B33A /* geosniffitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A254861A007F3300A0B33A /* Build configuration list for PBXNativeTarget "geosniffitTests" */;
+			buildPhases = (
+				D4A254751A007F3300A0B33A /* Sources */,
+				D4A254761A007F3300A0B33A /* Frameworks */,
+				D4A254771A007F3300A0B33A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4A2547B1A007F3300A0B33A /* PBXTargetDependency */,
+			);
+			name = geosniffitTests;
+			productName = geosniffitTests;
+			productReference = D4A254791A007F3300A0B33A /* geosniffitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A2545C1A007F3300A0B33A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = cgmckeever;
+				TargetAttributes = {
+					D4A254631A007F3300A0B33A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D4A254781A007F3300A0B33A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D4A254631A007F3300A0B33A;
+					};
+				};
+			};
+			buildConfigurationList = D4A2545F1A007F3300A0B33A /* Build configuration list for PBXProject "geosniffit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A2545B1A007F3300A0B33A;
+			productRefGroup = D4A254651A007F3300A0B33A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A254631A007F3300A0B33A /* geosniffit */,
+				D4A254781A007F3300A0B33A /* geosniffitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A254621A007F3300A0B33A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A2546F1A007F3300A0B33A /* Main.storyboard in Resources */,
+				D4A254741A007F3300A0B33A /* LaunchScreen.xib in Resources */,
+				D4A254711A007F3300A0B33A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A254771A007F3300A0B33A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A254601A007F3300A0B33A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A2546C1A007F3300A0B33A /* ViewController.swift in Sources */,
+				D4A2546A1A007F3300A0B33A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A254751A007F3300A0B33A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A254801A007F3300A0B33A /* geosniffitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4A2547B1A007F3300A0B33A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4A254631A007F3300A0B33A /* geosniffit */;
+			targetProxy = D4A2547A1A007F3300A0B33A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4A2546D1A007F3300A0B33A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A2546E1A007F3300A0B33A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4A254721A007F3300A0B33A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A254731A007F3300A0B33A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4A254811A007F3300A0B33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4A254821A007F3300A0B33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A254841A007F3300A0B33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = geosniffit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4A254851A007F3300A0B33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = geosniffit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4A254871A007F3300A0B33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = geosniffitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geosniffit.app/geosniffit";
+			};
+			name = Debug;
+		};
+		D4A254881A007F3300A0B33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = geosniffitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geosniffit.app/geosniffit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A2545F1A007F3300A0B33A /* Build configuration list for PBXProject "geosniffit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A254811A007F3300A0B33A /* Debug */,
+				D4A254821A007F3300A0B33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A254831A007F3300A0B33A /* Build configuration list for PBXNativeTarget "geosniffit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A254841A007F3300A0B33A /* Debug */,
+				D4A254851A007F3300A0B33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4A254861A007F3300A0B33A /* Build configuration list for PBXNativeTarget "geosniffitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A254871A007F3300A0B33A /* Debug */,
+				D4A254881A007F3300A0B33A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4A2545C1A007F3300A0B33A /* Project object */;
+}
