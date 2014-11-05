@@ -13,6 +13,10 @@
 		D4A254711A007F3300A0B33A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A254701A007F3300A0B33A /* Images.xcassets */; };
 		D4A254741A007F3300A0B33A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4A254721A007F3300A0B33A /* LaunchScreen.xib */; };
 		D4A254801A007F3300A0B33A /* geosniffitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2547F1A007F3300A0B33A /* geosniffitTests.swift */; };
+		D4A2548A1A00854600A0B33A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A254891A00854600A0B33A /* CoreLocation.framework */; };
+		D4A2548C1A0541E100A0B33A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2548B1A0541E100A0B33A /* StringExtension.swift */; };
+		D4A254901A05C8CD00A0B33A /* AdapterGooglePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2548F1A05C8CD00A0B33A /* AdapterGooglePlaces.swift */; };
+		D4A2549A1A06E3BC00A0B33A /* RadialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A254991A06E3BC00A0B33A /* RadialButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,12 @@
 		D4A254791A007F3300A0B33A /* geosniffitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geosniffitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A2547E1A007F3300A0B33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4A2547F1A007F3300A0B33A /* geosniffitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geosniffitTests.swift; sourceTree = "<group>"; };
+		D4A254891A00854600A0B33A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D4A2548B1A0541E100A0B33A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D4A2548D1A0560F400A0B33A /* panera.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = panera.gpx; sourceTree = "<group>"; };
+		D4A2548E1A05630A00A0B33A /* merchmart.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = merchmart.gpx; sourceTree = "<group>"; };
+		D4A2548F1A05C8CD00A0B33A /* AdapterGooglePlaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdapterGooglePlaces.swift; sourceTree = "<group>"; };
+		D4A254991A06E3BC00A0B33A /* RadialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A2548A1A00854600A0B33A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,7 @@
 		D4A2545B1A007F3300A0B33A = {
 			isa = PBXGroup;
 			children = (
+				D4A254891A00854600A0B33A /* CoreLocation.framework */,
 				D4A254661A007F3300A0B33A /* geosniffit */,
 				D4A2547C1A007F3300A0B33A /* geosniffitTests */,
 				D4A254651A007F3300A0B33A /* Products */,
@@ -90,7 +102,12 @@
 		D4A254671A007F3300A0B33A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D4A254991A06E3BC00A0B33A /* RadialButton.swift */,
 				D4A254681A007F3300A0B33A /* Info.plist */,
+				D4A2548D1A0560F400A0B33A /* panera.gpx */,
+				D4A2548E1A05630A00A0B33A /* merchmart.gpx */,
+				D4A2548F1A05C8CD00A0B33A /* AdapterGooglePlaces.swift */,
+				D4A2548B1A0541E100A0B33A /* StringExtension.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -214,6 +231,9 @@
 			files = (
 				D4A2546C1A007F3300A0B33A /* ViewController.swift in Sources */,
 				D4A2546A1A007F3300A0B33A /* AppDelegate.swift in Sources */,
+				D4A254901A05C8CD00A0B33A /* AdapterGooglePlaces.swift in Sources */,
+				D4A2548C1A0541E100A0B33A /* StringExtension.swift in Sources */,
+				D4A2549A1A06E3BC00A0B33A /* RadialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +359,7 @@
 				INFOPLIST_FILE = geosniffit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +370,7 @@
 				INFOPLIST_FILE = geosniffit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +427,7 @@
 				D4A254851A007F3300A0B33A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4A254861A007F3300A0B33A /* Build configuration list for PBXNativeTarget "geosniffitTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +436,7 @@
 				D4A254881A007F3300A0B33A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
