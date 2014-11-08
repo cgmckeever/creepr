@@ -36,11 +36,11 @@ class ViewController: UIViewController,
     @IBAction func addRegion(sender: AnyObject) {
         var nameTextField: UITextField?
         let dialog = UIAlertController(title: "Fencing!",
-            message: "Name this Den of Sin",
+            message: "Name this Place",
             preferredStyle: UIAlertControllerStyle.Alert)
         dialog.addTextFieldWithConfigurationHandler({ textField in
             nameTextField = textField
-            textField.placeholder = "Den of Sin"
+            textField.placeholder = "Name"
         })
         dialog.addAction(UIAlertAction(title: "Add",
             style: UIAlertActionStyle.Default,
